@@ -1,0 +1,152 @@
+	html {
+    	height: 100%;
+	}
+
+  	.cont{
+  		padding: 35px;
+  		background: transparent;
+  		color: white; 	
+  		letter-spacing: 15px;
+  		font-size: 20px;
+  		text-align: right;
+  	}
+
+  	.cont2{
+  		text-align: center;
+  		padding-top: 18%;
+  		padding-left: 13.5%;
+  		text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+  	}
+
+  	#ah{
+  		color: white;
+  		text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+  	}
+
+  	#ah:hover{
+  		color: yellow;
+  	}
+
+  	.over-links{
+  		padding: 20%;
+      margin: 8%;   
+  	}
+
+  	.site-hero {
+ 		 background-color: #ccc;
+		  background-size: cover;
+		  background-position: center center;
+		  background-repeat: no-repeat;
+		  position: relative;
+		  overflow: hidden; 
+	}
+
+	.site-hero, .site-hero .row{
+	    height: 100vh;
+	    min-height: 800px; 
+	}
+
+	.site-section {
+  		padding: 5em 0; 
+  		background-color: #222;
+  		color: white;
+	}
+
+	hr{
+	    border: 0;
+	    height: 1px;
+	    color: white;
+	    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+
+	.resume-item {
+		padding: 30px;
+	} 
+  
+  	.resume-item h3 {
+    	color: #bac964;
+    	font-size: 20px; 
+    }
+  
+  	.resume-item .school {
+    	color: rgba(255, 255, 255, 0.3); 
+    }
+
+    .bor1,.bor2,.bor3{
+    	border: solid white 1px;
+    	padding: 15px;
+    	border-radius: 10px;
+    }
+
+    .me{
+    	text-align: center;
+      color: rgba(255, 255, 255, 0.);
+    	font-family: Josefin Sans;
+    	font-size: 20px;
+    	padding: 3%;
+    }
+
+   	.form-control {
+		border: none !important;
+		background: #333;
+		color: #fff;
+   }
+
+.site-contact-details li {
+		padding: 10px;
+  		list-style: none;
+ 		margin-bottom: 20px; 
+ 	}
+
+  .site-contact-details li > span {
+    color: #2c3e50;
+    letter-spacing: 2px;
+    font-size: 12px;   
+    margin-bottom: 5px;
+    display: block; }
+
+.links{
+  font-family: Bangers;
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: white;
+  margin-top: 5%;
+}
+
+
+    .para{
+    	color: rgba(255, 255, 255, 0.3);
+    	font-family: Ubuntu;
+    	letter-spacing: 1px;
+    }
+
+.site-heading-contact{
+  padding-bottom: 25px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+}
+
+.site-footer{
+  font-family: Montserrat;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#back2Top {
+    width: 100px;
+    size: 100px;
+    line-height: 100px;
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: transparent;
+    color: yellow;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+}
