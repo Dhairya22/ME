@@ -1,15 +1,24 @@
+
+
 <?php
+//*Mail form by Mo Bahjat*/
+$to = "support@angelitsolutions.co.in"; /* <----add your e-mail*/
+$Subject = "Email from my website";/*what subject you want to receive your email;*/
 
-if(isset($POST['submit'])){
-    $name = $_POST['name'];
-    $subject = $_POST['subject'];
-    $mailFrom = $_POST['mail'];
-    $message = $_POST['message'];
+//Don't touch this please //
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
 
-    $mailTo = "support@angelitsolutions.co.in";
-    $headers = "From: ".$mailFrom;
-    $txt = "You have received an e-mail from ".$name."\n\n".$message;
 
-    mail($mailTo, $subject, $txt, $headers);
-    header("Location: index.html?mailsend");
-}
+// this is the headers//
+$headers .= "Content-type: text/html;\r\n";
+$headers .= "From: $email"; 
+
+//the mail Function
+mail($to, $Subject, $message, $headers);
+//this message will show up when you hit Submit button//
+echo "Email has been sent! Thank you $name";
+?>
+
+
